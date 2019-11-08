@@ -1,4 +1,4 @@
-package net.haesleinhuepf.clij;
+package org.micromanager.opencl;
 
 /**
  * The OCLlib class just serves as anchor for the .cl

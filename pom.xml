@@ -12,13 +12,13 @@
 		<relativePath />
 	</parent>
 
-	<groupId>net.haesleinhuepf</groupId>
+	<groupId>org.micromanager</groupId>
 	<artifactId>clij-opencl-kernels</artifactId>
-	<version>1.4.1</version>
+	<version>0.1-SNAPSHOT</version>
 
 	<name>clij-opencl-kernels</name>
 	<description>clij-opencl-kernels</description>
-	<url>https://github.com/clij/clij-core</url>
+	<url>https://github.com/nicost/clij-opencl-kernels</url>
 	<inceptionYear>2018</inceptionYear>
 	<organization>
 		<name>MPI CBG</name>
@@ -90,9 +90,9 @@
 
 	<distributionManagement>
 		<repository>
-			<id>bintray-haesleinhuepf-snapshots</id>
-			<name>bintray-snapshots</name>
-			<url>https://api.bintray.com/maven/haesleinhuepf/clij/clij-opencl-kernels/;publish=1</url>
+			<id>localFiles</id>
+			<name>local File System</name>
+			<url>file:mavenDeploy</url>
 		</repository>
 	</distributionManagement>
 </project>
