@@ -5,12 +5,6 @@
 		http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<parent>
-		<groupId>net.haesleinhuepf</groupId>
-		<artifactId>clij-parent-pom</artifactId>
-		<version>1.4.0</version>
-		<relativePath />
-	</parent>
 
 	<groupId>org.micromanager</groupId>
 	<artifactId>clij-opencl-kernels</artifactId>
@@ -47,6 +41,15 @@
 				<role>maintainer</role>
 			</roles>
 		</developer>
+		<developer>
+			<id>nicost</id>
+			<name>Nico Stuurman</name>
+			<url>https://valelab.ucsf.edu/~nico</url>
+			<organization>MPI CBG</organization>
+			<roles>
+				<role>doing stuff</role>
+			</roles>
+		</developer>
 	</developers>
 	<contributors>
 		<contributor>
@@ -62,29 +65,24 @@
 	</mailingLists>
 
 	<scm>
-		<connection>scm:git:git://github.com/clij/clij</connection>
-        <developerConnection>scm:git:git@github.com/clij/clij</developerConnection>
+		<connection>scm:git:git://github.com/nicost/clij-opencl-kernels</connection>
+		<developerConnection>scm:git:git@github.com/nicost/clij-opencl-kernels</developerConnection>
         <tag>HEAD</tag>
-		<url>https://github.com/clij/clij</url>
+	<url>https://github.com/nicost/clij-opencl-kernels</url>
 	</scm>
 	<issueManagement>
 		<system>GitHub Issues</system>
-		<url>https://github.com/clij/clij/issues</url>
+		<url>https://github.com/nicost/clij-operncl-kernels/issues</url>
 	</issueManagement>
+
 	<ciManagement>
 		<system>None</system>
 	</ciManagement>
 
-	<properties>
-		<package-name>net.haesleinhuepf</package-name>
-		<license.licenseName>bsd_3</license.licenseName>
-		<license.copyrightOwners>Robert Haase, MPI CBG</license.copyrightOwners>
-		<imagej.app.directory>C:/programs/fiji-win64/Fiji.app/</imagej.app.directory>
-	</properties>
 	<repositories>
 		<repository>
-			<id>clij</id>
-			<url>http://dl.bintray.com/haesleinhuepf/clij</url>
+			<id>valenico</id>
+			<url>http://valelab4.ucsf.edu/~nstuurman/maven</url>
 		</repository>
 	</repositories>
 
