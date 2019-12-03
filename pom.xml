@@ -8,7 +8,7 @@
 
 	<groupId>org.micromanager</groupId>
 	<artifactId>clij-opencl-kernels</artifactId>
-	<version>0.1-SNAPSHOT</version>
+	<version>0.1.1-SNAPSHOT</version>
 
 	<name>clij-opencl-kernels</name>
 	<description>clij-opencl-kernels</description>
@@ -90,7 +90,7 @@
 		<repository>
 			<id>localFiles</id>
 			<name>local File System</name>
-			<url>file:mavenDeploy</url>
+         <url>file:/Volumes/nstuurman/public_html/maven/</url>
 		</repository>
 	</distributionManagement>
 </project>
